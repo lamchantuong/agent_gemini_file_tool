@@ -1,0 +1,17 @@
+# Requirements for AI Coding Assistant with Gemini
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-google-genai>=0.0.5
+
+# Google Generative AI
+google-generativeai>=0.3.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Additional utilities
+typing-extensions>=4.0.0
+
+# Optional: For better development experience
+# ipython>=8.0.0
+# jupyter>=1.0.0 
