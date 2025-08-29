@@ -58,7 +58,6 @@ logs/
 # Output files - không commit files được tạo tự động
 outputs/
 *.txt
-*.py
 *.js
 *.html
 *.css
