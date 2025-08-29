@@ -6,12 +6,14 @@ Sử dụng để chạy AI Coding Assistant với input từ người dùng
 
 import sys
 import os
+from pathlib import Path
 
-# Thêm src vào Python path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+# Thêm src vào Python path một cách an toàn
+project_root = Path(__file__).parent.parent
+src_path = project_root / "src"
+sys.path.insert(0, str(src_path))
 
 from coding_assistant import AICodingAssistant
-import sys
 
 def main():
     """Main function để chạy AI Coding Assistant"""
