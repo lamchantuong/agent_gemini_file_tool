@@ -55,8 +55,14 @@ Thumbs.db
 *.log
 logs/
 
-# Output files (optional - uncomment if you don't want to track generated code)
-# agent_gemini_file_tool/outputs/
+# Output files - không commit files được tạo tự động
+outputs/
+*.txt
+*.py
+*.js
+*.html
+*.css
+*.json
 
 # Jupyter Notebook
 .ipynb_checkpoints

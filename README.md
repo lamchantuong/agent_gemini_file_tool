@@ -23,22 +23,23 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ```bash
 # Chạy coding assistant
-python run_coding_assistant.py
+python scripts/run_coding_assistant.py
 ```
 
 ## Cấu trúc Dự án
 
 ```
 agent_gemini_file_tool/
+├── src/                        # Source code chính
+│   ├── __init__.py            # Package initialization
+│   ├── coding_assistant.py    # AI Coding Assistant chính
+│   └── advanced_file_tool.py  # Tool quản lý file
+├── scripts/                    # Scripts để chạy
+│   └── run_coding_assistant.py # Script chạy assistant
+├── outputs/                    # Thư mục chứa code được tạo (không commit)
 ├── requirements.txt            # Dependencies
 ├── README.md                   # Hướng dẫn
-├── .gitignore                  # Git ignore
-├── coding_assistant.py         # AI Coding Assistant chính
-├── advanced_file_tool.py       # Tool quản lý file
-├── run_coding_assistant.py     # Script chạy assistant
-├── agent_gemini_base_url_fall.py
-├── new.py
-└── outputs/                    # Thư mục chứa code được tạo
+└── .gitignore                  # Git ignore
 ```
 
 ## Tính năng
