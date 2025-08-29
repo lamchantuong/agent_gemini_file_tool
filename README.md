@@ -4,31 +4,14 @@ Dự án sử dụng LangChain và Google Gemini để tạo AI Coding Assistant
 
 ## Cài đặt và Setup
 
-### 1. Tạo Virtual Environment
-
-```bash
-# Tạo virtual environment
-python -m venv venv
-
-# Kích hoạt virtual environment
-# Windows PowerShell:
-.\venv\Scripts\Activate.ps1
-
-# Windows Command Prompt:
-.\venv\Scripts\activate.bat
-
-# Linux/Mac:
-source venv/bin/activate
-```
-
-### 2. Cài đặt Dependencies
+### 1. Cài đặt Dependencies
 
 ```bash
 # Cài đặt dependencies chung cho toàn bộ dự án
 pip install -r requirements.txt
 ```
 
-### 3. Cấu hình Environment Variables
+### 2. Cấu hình Environment Variables
 
 Tạo file `.env` trong thư mục gốc:
 
@@ -36,7 +19,7 @@ Tạo file `.env` trong thư mục gốc:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### 4. Chạy AI Coding Assistant
+### 3. Chạy AI Coding Assistant
 
 ```bash
 # Chạy coding assistant
@@ -47,7 +30,6 @@ python run_coding_assistant.py
 
 ```
 agent_gemini_file_tool/
-├── venv/                       # Virtual environment
 ├── requirements.txt            # Dependencies
 ├── README.md                   # Hướng dẫn
 ├── .gitignore                  # Git ignore

@@ -1,3 +1,6 @@
+# Prompt
+.prompt/
+
 # Virtual Environment
 venv/
 env/
